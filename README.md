@@ -20,12 +20,14 @@ npm run dev
 
 ## Supabase setup
 
-Create `.env.local` with:
+Create `.env.local` from `.env.example`:
 
 ```bash
 NEXT_PUBLIC_SUPABASE_URL=your-project-url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
 ```
+
+Then run the SQL in `supabase/schema.sql` inside the Supabase SQL editor.
 
 Suggested tables for the next phase:
 
